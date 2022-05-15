@@ -3,6 +3,7 @@
 # Installed: From Visual Studio 2019
 # Host Mach: Windows
 #     Usage: Developer Powershell/Command Prompt for VS 2019
-#
-set(CMAKE_C_COMPILER                cl.exe)
-set(CMAKE_CXX_COMPILER              cl.exe)
+# Note that CMAKE_C_COMPILER and CMAKE_CXX_COMPILER are computed automatically from the toolset variable.
+# 
+set(CMAKE_GENERATOR_TOOLSET "v142")
+set(CMAKE_GENERATOR_PLATFORM "x64")

@@ -5,3 +5,5 @@
 #
 set(CMAKE_C_COMPILER                /usr/local/opt/llvm@14/bin/clang)
 set(CMAKE_CXX_COMPILER              /usr/local/opt/llvm@14/bin/clang++)
+set(LLVM_PROFDATA                   /usr/local/opt/llvm@14/bin/llvm-profdata)
+set(LLVM_COV                        /usr/local/opt/llvm@14/bin/llvm-cov)

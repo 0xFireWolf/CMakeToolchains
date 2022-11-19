@@ -1,4 +1,4 @@
-l#
+#
 # Toolchain: x86-64 with GCC 10
 # Installed: From Homebrew (brew install gcc@10)
 # Host Mach: macOS

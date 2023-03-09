@@ -1,12 +1,12 @@
 #
-# Toolchain: x86-64 with Clang 15
-# Installed: From Homebrew (brew install llvm@15)
+# Toolchain: x86-64 with Clang 16
+# Installed: From Homebrew (brew install llvm@16)
 # Host Mach: macOS
 #
-set(CMAKE_C_COMPILER                /usr/local/opt/llvm@15/bin/clang)
-set(CMAKE_CXX_COMPILER              /usr/local/opt/llvm@15/bin/clang++)
-set(LLVM_PROFDATA                   /usr/local/opt/llvm@15/bin/llvm-profdata)
-set(LLVM_COV                        /usr/local/opt/llvm@15/bin/llvm-cov)
+set(CMAKE_C_COMPILER                /usr/local/opt/llvm@16/bin/clang)
+set(CMAKE_CXX_COMPILER              /usr/local/opt/llvm@16/bin/clang++)
+set(LLVM_PROFDATA                   /usr/local/opt/llvm@16/bin/llvm-profdata)
+set(LLVM_COV                        /usr/local/opt/llvm@16/bin/llvm-cov)
 
 # Chainload Toolchain File Support
 if (DEFINED CHAOS_CHAINLOAD_TOOLCHAIN_FILE)

@@ -16,7 +16,7 @@ if (DEFINED CHAOS_CHAINLOAD_TOOLCHAIN_FILE)
     endif()
 endif()
 
-if (DEFINED CHAOS_USE_BUNDLED_LIBCPP)
+if (CHAOS_USE_BUNDLED_LIBCPP)
     message(STATUS "Updating the linker flags for executables to use the bundled libc++.")
     set(CMAKE_EXE_LINKER_FLAGS "-L/opt/homebrew/opt/llvm@19/lib/c++ -L/opt/homebrew/opt/llvm@19/lib/ -lunwind")
 endif()

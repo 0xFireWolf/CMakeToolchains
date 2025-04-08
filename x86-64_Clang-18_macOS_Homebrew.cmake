@@ -20,5 +20,5 @@ endif()
 
 if (CHAOS_USE_BUNDLED_LIBCPP)
     message(STATUS "Updating the linker flags for executables to use the bundled libc++.")
-    set(CMAKE_EXE_LINKER_FLAGS "-L/usr/local/opt/llvm@18/lib/c++ -L/usr/local/opt/llvm@18/lib/ -lunwind")
+    set(CMAKE_EXE_LINKER_FLAGS "-L/usr/local/opt/llvm@18/lib/c++ -L/usr/local/opt/llvm@18/lib -lunwind")
 endif()
